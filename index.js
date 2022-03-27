@@ -63,7 +63,7 @@ client.on("messageCreate", (message) => {
              },
              {
                  name: 'Orientamento sessuale',
-                 value: 'eterosessuale',
+                 value: 'Eterosessuale',
                  inline: false
              }
         )
@@ -89,7 +89,7 @@ client.on("messageCreate", (message) => {
             },
             {
                 name: 'Storia',
-                value: 'indeterminata, da scoprire in RP',
+                value: 'Indeterminata, da scoprire in RP',
                 inline: false
             }
         )
