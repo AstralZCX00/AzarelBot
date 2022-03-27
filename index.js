@@ -15,10 +15,10 @@ console.log ("nuovo utente")
 client.on("messageCreate", (message) => {
     if (message.content == "+/vladimir") {
         var embe1 = new Discord.MessageEmbed()
-        .setColor('#ff002b')
-        .setTitle('PREZZI GRAFICHE')
+        .setColor('#00665E')
+        .setTitle('SCHEDA OC VLADIMIR')
         .setDescription('nei fields sottostanti troverete i prezzi delle grafiche')
-        .setThumbnail('https://cdn.discordapp.com/attachments/947563942866198549/948322773246279730/ByZCX.jpg')
+        .setThumbnail('https://cdn.discordapp.com/attachments/957201956076679168/957599205961105448/Logo_azarel.png')
         .addField('\u200b', '\u200b')
         .addFields(
              {
