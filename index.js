@@ -93,6 +93,7 @@ client.on("messageCreate", (message) => {
                 inline: false
             }
         )
+        .setImage('https://cdn.discordapp.com/attachments/957201956076679168/957634120668835840/WhatsApp_Image_2022-03-24_at_23.14.16.jpeg')
         message.author.send({ embeds: [embed1] })
     }
 })
