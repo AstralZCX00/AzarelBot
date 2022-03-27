@@ -97,3 +97,89 @@ client.on("messageCreate", (message) => {
         message.author.send({ embeds: [embed1] })
     }
 })
+
+client.on("messageCreate", (message) => {
+    if (message.content == "+/jack") {
+        var embed2 = new Discord.MessageEmbed()
+        .setColor('#00665E')
+        .setTitle('SCHEDA OC JACK')
+        .setDescription('nei fields sottostanti troverete i prezzi delle grafiche')
+        .setThumbnail('https://cdn.discordapp.com/attachments/957201956076679168/957599205961105448/Logo_azarel.png')
+        .addField('\u200b', '\u200b')
+        .addFields(
+             {
+                 name: 'Nome',
+                 value: 'Jack Hawk',
+                 inline: false 
+             },
+             {
+                 name: 'Altezza',
+                 value: '180cm',
+                 inline: false
+             },
+             {
+                 name: 'Sesso',
+                 value: 'Uomo',
+                 inline: false
+             },
+             {
+                 name: 'Età',
+                 value: '19',
+                 inline: false
+             },
+             {
+                 name: 'Caratteristiche fisiche',
+                 value: 'i suoi  capelli lunghi e lisci di un colore   castano sono raccolti in delle piccole trecce, che si porta sempre a lato del capo,seguono gli occhi spettrali di un colore tendente al azzurro.  Sul viso ha degli accenni di peluria.',
+                 inline: false
+             },
+             {
+                 name: 'Soprannome',
+                 value: 'Fiaccola',
+                 inline: false
+             },
+             {
+                 name: 'Carattere',
+                 value: 'è  un ragazzo che ama stare per le sue,non ama il baccano e chi è  presuntuoso. Cerca sempre di mantenere la pace e di aiutare il prossimo, inoltre non teme andare in battaglia.  Se si conosce bene è  un ragazzo simpatico e divertente.',
+                 inline: false
+             },
+             {
+                 name: 'Luogo di nascita',
+                 value: "Inghilterra",
+                 inline: false
+             },
+             {
+                 name: 'Orientamento sessuale',
+                 value: 'Eterosessuale',
+                 inline: false
+             }
+        )
+        .addField('\u200b', '\u200b')
+        .addFields(
+            {
+                name: 'Fazione',
+                value: 'Croce nera (primordiali)',
+                inline: false 
+            },
+        )
+        .addField('\u200b', '\u200b')
+        .addFields(
+            {
+                name: 'Poteri',
+                value: 'Dominazione del fuoco',
+                inline: false
+            },
+            {
+                name: 'Punto debole',
+                value: "il suo punto debole è  il suo stesso potere se sfrutta troppo il suo potere le sue braccia  si creperanno mandandole fuoriuso per un po'  di tempo.",
+                inline: false
+            },
+            {
+                name: 'Storia',
+                value: 'Indeterminata, da scoprire in RP',
+                inline: false
+            }
+        )
+        .setImage('https://cdn.discordapp.com/attachments/957201956076679168/957634289762201630/20210420_225811-2.jpg')
+        message.author.send({ embeds: [embed2] })
+    }
+})
