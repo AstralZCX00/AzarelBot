@@ -190,7 +190,7 @@ client.on("messageCreate", message => {
         .setColor('#00665E')
         .setTitle('SCHEDA OC')
         .setDescription('Clicca sul bottone per inviare la tua scheda OC')
-        .setThumbnail('https://cdn.discordapp.com/attachments/947563942866198549/948322773246279730/ByZCX.jpg')
+        .setThumbnail('https://cdn.discordapp.com/attachments/957201956076679168/957599205961105448/Logo_azarel.png')
         
         var button1 = new Discord.MessageButton()
             .setLabel("Invia la tua scheda OC")
@@ -330,7 +330,7 @@ client.on("messageCreate", message => {
         .setColor('#00665E')
         .setTitle('PARTNERSHIP')
         .setDescription('Clicca sul bottone per richiedere una partnership')
-        .setThumbnail('https://cdn.discordapp.com/attachments/947563942866198549/948322773246279730/ByZCX.jpg')
+        .setThumbnail('https://cdn.discordapp.com/attachments/957201956076679168/957599205961105448/Logo_azarel.png')
         
         var button1 = new Discord.MessageButton()
             .setLabel("richiedi una partner")
@@ -590,7 +590,7 @@ client.on("messageCreate", message => {
         .setColor('#00665E')
         .setTitle('PARTNERSHIP')
         .setDescription('Clicca sul bottone per aprire un ticket generale')
-        .setThumbnail('https://cdn.discordapp.com/attachments/947563942866198549/948322773246279730/ByZCX.jpg')
+        .setThumbnail('https://cdn.discordapp.com/attachments/957201956076679168/957599205961105448/Logo_azarel.png')
         
         var button1 = new Discord.MessageButton()
             .setLabel("richiedi una partner")
