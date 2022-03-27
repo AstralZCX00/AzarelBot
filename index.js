@@ -14,7 +14,7 @@ console.log ("nuovo utente")
 
 client.on("messageCreate", (message) => {
     if (message.content == "+/vladimir") {
-        var embe1 = new Discord.MessageEmbed()
+        var embed1 = new Discord.MessageEmbed()
         .setColor('#00665E')
         .setTitle('SCHEDA OC VLADIMIR')
         .setDescription('nei fields sottostanti troverete i prezzi delle grafiche')
