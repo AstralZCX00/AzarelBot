@@ -17,7 +17,7 @@ client.on("messageCreate", (message) => {
         var embed1 = new Discord.MessageEmbed()
         .setColor('#00665E')
         .setTitle('SCHEDA OC VLADIMIR')
-        .setDescription('nei fields sottostanti troverete i prezzi delle grafiche')
+        .setDescription('nei fields sottostanti troveri la scheda OC')
         .setThumbnail('https://cdn.discordapp.com/attachments/957201956076679168/957599205961105448/Logo_azarel.png')
         .addField('\u200b', '\u200b')
         .addFields(
@@ -103,7 +103,7 @@ client.on("messageCreate", (message) => {
         var embed2 = new Discord.MessageEmbed()
         .setColor('#00665E')
         .setTitle('SCHEDA OC JACK')
-        .setDescription('nei fields sottostanti troverete i prezzi delle grafiche')
+        .setDescription('nei fields sottostanti troverai la scheda OC')
         .setThumbnail('https://cdn.discordapp.com/attachments/957201956076679168/957599205961105448/Logo_azarel.png')
         .addField('\u200b', '\u200b')
         .addFields(
