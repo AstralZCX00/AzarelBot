@@ -981,7 +981,7 @@ client.on("message", message => {
         })
 
 
-        if (message.content == "!livello") {
+        if (message.content == "+/livello") {
                 con.query("SELECT * FROM users", function (err, result) {
                         if (err) {
                                 console.log(err)
