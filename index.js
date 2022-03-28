@@ -853,7 +853,7 @@ client.on("messageCreate", (message) => {
     if (message.content == "+/ellie") {
         var embed4 = new Discord.MessageEmbed()
         .setColor('#00665E')
-        .setTitle('SCHEDA OC Ellie')
+        .setTitle('SCHEDA OC ELLIE')
         .setDescription('nei fields sottostanti troverai la scheda OC')
         .setThumbnail('https://cdn.discordapp.com/attachments/957201956076679168/957599205961105448/Logo_azarel.png')
         .addField('\u200b', '\u200b')
