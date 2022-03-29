@@ -935,6 +935,178 @@ client.on("messageCreate", (message) => {
     }
 })
 
+client.on("messageCreate", (message) => {
+    if (message.content == "+/yukino") {
+        var embed5 = new Discord.MessageEmbed()
+        .setColor('#00665E')
+        .setTitle('SCHEDA OC YUKINO')
+        .setDescription('nei fields sottostanti troverai la scheda OC')
+        .setThumbnail('https://cdn.discordapp.com/attachments/957201956076679168/957599205961105448/Logo_azarel.png')
+        .addField('\u200b', '\u200b')
+        .addFields(
+             {
+                 name: 'Nome',
+                 value: 'Yukino Kenma,',
+                 inline: false 
+             },
+             {
+                 name: 'Altezza',
+                 value: '175cm',
+                 inline: false
+             },
+             {
+                 name: 'Sesso',
+                 value: 'Donna',
+                 inline: false
+             },
+             {
+                 name: 'Età',
+                 value: '20',
+                 inline: false
+             },
+             {
+                 name: 'Caratteristiche fisiche',
+                 value: 'Magra ma con muscoli ben formati.',
+                 inline: false
+             },
+             {
+                 name: 'Soprannome',
+                 value: 'Volpe Ghiacciata, Reitō kitsune',
+                 inline: false
+             },
+             {
+                 name: 'Carattere',
+                 value: "Gentile, Protettiva, Molto aperta alle amicizie ma diffidente (spesso cerca delle prove dell'effettiva lealtà), Vendicativa",
+                 inline: false
+             },
+             {
+                 name: 'Luogo di nascita',
+                 value: "Shirakawa",
+                 inline: false
+             },
+             {
+                 name: 'Orientamento sessuale',
+                 value: 'Pansessuale',
+                 inline: false
+             }
+        )
+        .addField('\u200b', '\u200b')
+        .addFields(
+            {
+                name: 'Fazione',
+                value: 'Poliset',
+                inline: false 
+            },
+        )
+        .addField('\u200b', '\u200b')
+        .addFields(
+            {
+                name: 'Poteri',
+                value: "Dominio dell'acqua, prestazioni fisiche ampliicate (velocità).",
+                inline: false
+            },
+            {
+                name: 'Punto debole',
+                value: "Temperature troppo alte (abituata a vivere nel gelo il suo corpo non sopporta oltre i 60 gradi) ed il vento forte (sbilancia l'acqua ed alcuni suoi movimenti deve ricalcolarli).",
+                inline: false
+            },
+            {
+                name: 'Storia',
+                value: 'Indeterminata, da scoprire in RP',
+                inline: false
+            }
+        )
+        .setImage('https://cdn.discordapp.com/attachments/958376643875983440/958376703216979998/Akame_-_BLu.jpg')
+        message.author.send({ embeds: [embed5] })
+    }
+})
+
+client.on("messageCreate", (message) => {
+    if (message.content == "+/jimiko") {
+        var embed6 = new Discord.MessageEmbed()
+        .setColor('#00665E')
+        .setTitle('SCHEDA OC JIMIKO')
+        .setDescription('nei fields sottostanti troverai la scheda OC')
+        .setThumbnail('https://cdn.discordapp.com/attachments/957201956076679168/957599205961105448/Logo_azarel.png')
+        .addField('\u200b', '\u200b')
+        .addFields(
+             {
+                 name: 'Nome',
+                 value: 'Jimiko Meino',
+                 inline: false 
+             },
+             {
+                 name: 'Altezza',
+                 value: '192cm',
+                 inline: false
+             },
+             {
+                 name: 'Sesso',
+                 value: 'Donna',
+                 inline: false
+             },
+             {
+                 name: 'Età',
+                 value: '36',
+                 inline: false
+             },
+             {
+                 name: 'Caratteristiche fisiche',
+                 value: 'Capelli neri e lunghi, occhi color rosso, corpo snello, pelle leggermente pallida.',
+                 inline: false
+             },
+             {
+                 name: 'Soprannome',
+                 value: 'Drughal "Testament"',
+                 inline: false
+             },
+             {
+                 name: 'Carattere',
+                 value: "ambiversa, calma e tranquilla, cazzara (molte battute scomode), masochista, protettiva",
+                 inline: false
+             },
+             {
+                 name: 'Luogo di nascita',
+                 value: "Indeterminato, da scoprire in RP",
+                 inline: false
+             },
+             {
+                 name: 'Orientamento sessuale',
+                 value: 'Indeterminato, da scoprire in RP',
+                 inline: false
+             }
+        )
+        .addField('\u200b', '\u200b')
+        .addFields(
+            {
+                name: 'Fazione',
+                value: 'Poliset',
+                inline: false 
+            },
+        )
+        .addField('\u200b', '\u200b')
+        .addFields(
+            {
+                name: 'Poteri',
+                value: "Dominio del fuoco, prestazioni fisiche ampliicate (velocità).",
+                inline: false
+            },
+            {
+                name: 'Punto debole',
+                value: "dolci e odia le cose carine, il combattimento a mani nude è un grave problema.",
+                inline: false
+            },
+            {
+                name: 'Storia',
+                value: 'Indeterminata, da scoprire in RP',
+                inline: false
+            }
+        )
+        .setImage('https://cdn.discordapp.com/attachments/958378816353484891/958379039524028527/cb4.jpg')
+        message.author.send({ embeds: [embed6] })
+    }
+})
+
 //----------------------------------------------------------------------------------------------------------
 //----------------------------------------------------------------------------------------------------------
 //----------------------------------------------------------------------------------------------------------
