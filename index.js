@@ -72,7 +72,7 @@ client.on("interactionCreate", interaction => {
 })
 
 client.on("messageCreate", message => {
-    if (message.content == "!close") {
+    if (message.content == "+/close") {
         var topic = message.channel.topic;
         if (!topic) {
             message.channel.send("Non puoi utilizzare questo comando qui");
@@ -212,7 +212,7 @@ client.on("interactionCreate", interaction => {
 })
 
 client.on("messageCreate", message => {
-    if (message.content == "!close") {
+    if (message.content == "+/close") {
         var topic = message.channel.topic;
         if (!topic) {
             message.channel.send("Non puoi utilizzare questo comando qui");
@@ -332,7 +332,7 @@ client.on("interactionCreate", interaction => {
 })
 
 client.on("messageCreate", message => {
-    if (message.content == "!close") {
+    if (message.content == "+/close") {
         var topic = message.channel.topic;
         if (!topic) {
             message.channel.send("Non puoi utilizzare questo comando qui");
@@ -472,7 +472,7 @@ client.on("interactionCreate", interaction => {
 })
 
 client.on("messageCreate", message => {
-    if (message.content == "!close") {
+    if (message.content == "+/close") {
         var topic = message.channel.topic;
         if (!topic) {
             message.channel.send("Non puoi utilizzare questo comando qui");
@@ -592,7 +592,7 @@ client.on("interactionCreate", interaction => {
 })
 
 client.on("messageCreate", message => {
-    if (message.content == "!close") {
+    if (message.content == "+/close") {
         var topic = message.channel.topic;
         if (!topic) {
             message.channel.send("Non puoi utilizzare questo comando qui");
