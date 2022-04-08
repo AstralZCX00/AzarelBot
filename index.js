@@ -1107,6 +1107,92 @@ client.on("messageCreate", (message) => {
     }
 })
 
+client.on("messageCreate", (message) => {
+    if (message.content == "+/lexan") {
+        var embed6 = new Discord.MessageEmbed()
+        .setColor('#00665E')
+        .setTitle('SCHEDA OC LEXAN')
+        .setDescription('nei fields sottostanti troverai la scheda OC')
+        .setThumbnail('https://cdn.discordapp.com/attachments/957201956076679168/957599205961105448/Logo_azarel.png')
+        .addField('\u200b', '\u200b')
+        .addFields(
+             {
+                 name: 'Nome',
+                 value: 'Lexan Hayer',
+                 inline: false 
+             },
+             {
+                 name: 'Altezza',
+                 value: '180cm',
+                 inline: false
+             },
+             {
+                 name: 'Sesso',
+                 value: 'Uomo',
+                 inline: false
+             },
+             {
+                 name: 'Età',
+                 value: '22',
+                 inline: false
+             },
+             {
+                 name: 'Caratteristiche fisiche',
+                 value: 'È un ragazzo decisamente alto per i suoi gusti, infatti ha la beata altezza di un metro e ottanta, con un peso abbastanza bilanciato di settantacinque chili, ha una capigliatura dai colori corvini con le punte rosse che gli vanno appena sotto la spalla, che però tiene sempre solo da un lato unico, i suoi occhi sono a dir poco sottili, quasi taglienti e le pupille di un giallo luminoso mettono in risalto il tutto che va ad unirsi ad una pelle dal colore roseo lievemente scuro, sul braccio sinistro ha il tatuaggio di un drago che fa a spirale dal suo polso fino a dietro la spalla.',
+                 inline: false
+             },
+             {
+                 name: 'Soprannome',
+                 value: 'Mumeitou / Akaryū',
+                 inline: false
+             },
+             {
+                 name: 'Carattere',
+                 value: "Lexian è un ragazzo decisamente freddo e distaccato da praticare chiunque, soprattutto dalle persone che gli sembrano appiccicose fin da subito, ma anche con chi gli è gentile fatica ad essere cortese, per lui non è cattiveria questo comportamento è semplicemente mancanza di fiducia nel approcciarsi alle altre persone. Preferisce di gran lunga stare da solo piuttosto che in gruppo essendo una persona solitaria sin dalla nascita. Non è per niente sicuro di sé infatti quando inizia a fare una qualsiasi cosa è finisce con il successo ammette di aver avuto solo fortuna.",
+                 inline: false
+             },
+             {
+                 name: 'Luogo di nascita',
+                 value: "Dintorni del Giappone, non definito",
+                 inline: false
+             },
+             {
+                 name: 'Orientamento sessuale',
+                 value: 'Eterosessuale',
+                 inline: false
+             }
+        )
+        .addField('\u200b', '\u200b')
+        .addFields(
+            {
+                name: 'Fazione',
+                value: 'Poliset',
+                inline: false 
+            },
+        )
+        .addField('\u200b', '\u200b')
+        .addFields(
+            {
+                name: 'Poteri',
+                value: "Dominio del fuoco.",
+                inline: false
+            },
+            {
+                name: 'Punto debole',
+                value: "I dominatori dell'acqua sono uno dei suoi principali punti deboli non essendo molto in grado di contrastarli se non con la sua propria arma, in generale le cose fredde (anche l'acqua per esempio, preferisce piuttosto berla calda).",
+                inline: false
+            },
+            {
+                name: 'Storia',
+                value: 'Indeterminata, da scoprire in RP',
+                inline: false
+            }
+        )
+        .setImage('https://cdn.discordapp.com/attachments/960945203076821063/960963585016737812/IMG_20220405_200210.jpg')
+        message.author.send({ embeds: [embed6] })
+    }
+})
+
 //----------------------------------------------------------------------------------------------------------
 //----------------------------------------------------------------------------------------------------------
 //----------------------------------------------------------------------------------------------------------
