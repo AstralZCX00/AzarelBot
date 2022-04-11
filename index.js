@@ -1193,6 +1193,92 @@ client.on("messageCreate", (message) => {
     }
 })
 
+client.on("messageCreate", (message) => {
+    if (message.content == "+/ailith") {
+        var embed7 = new Discord.MessageEmbed()
+        .setColor('#00665E')
+        .setTitle('SCHEDA OC AILITH')
+        .setDescription('nei fields sottostanti troverai la scheda OC')
+        .setThumbnail('https://cdn.discordapp.com/attachments/957201956076679168/957599205961105448/Logo_azarel.png')
+        .addField('\u200b', '\u200b')
+        .addFields(
+             {
+                 name: 'Nome',
+                 value: 'Ailith Casey',
+                 inline: false 
+             },
+             {
+                 name: 'Altezza',
+                 value: '165cm',
+                 inline: false
+             },
+             {
+                 name: 'Sesso',
+                 value: 'Donna',
+                 inline: false
+             },
+             {
+                 name: 'Età',
+                 value: 'Indefinita',
+                 inline: false
+             },
+             {
+                 name: 'Caratteristiche fisiche',
+                 value: 'Lunghi capelli corvini, ad incorniciare un viso bellissimo ,dalla pelle perfettamente levigata ,e bianca. Occhi così bui da racchiudere una notte così fonda di universi e costellazioni sconosciute. Un corpo formoso e longilineo allo stesso tempo, così fragile ed esile, ma resistente al  contempo, agile e flessuoso. Labbra piccole e carnose, su un sorriso a volte misterioso e lontano.',
+                 inline: false
+             },
+             {
+                 name: 'Soprannome',
+                 value: 'Orion',
+                 inline: false
+             },
+             {
+                 name: 'Carattere',
+                 value: "Non è facile per lei fidarsi all'istante, non si può dire che si concerne ad atteggiamenti smielati e pressanti in effusioni con chi che sia. Può essere distante , rinchiusa nei suoi silenzi, leale e amichevole con chi ne attrae la fiducia. In battaglia cerca di essere riflessiva e studiare il proprio avversario. Non è necessariamente crudele con chi non se lo merita. Perspicace e coraggiosa, per certi versi timida, e malinconica nel suo intimo.",
+                 inline: false
+             },
+             {
+                 name: 'Luogo di nascita',
+                 value: "Non definito",
+                 inline: false
+             },
+             {
+                 name: 'Orientamento sessuale',
+                 value: 'Eterosessuale',
+                 inline: false
+             }
+        )
+        .addField('\u200b', '\u200b')
+        .addFields(
+            {
+                name: 'Fazione',
+                value: 'Croce Nera',
+                inline: false 
+            },
+        )
+        .addField('\u200b', '\u200b')
+        .addFields(
+            {
+                name: 'Poteri',
+                value: "Dominio dell'energia",
+                inline: false
+            },
+            {
+                name: 'Punto debole',
+                value: "non può usarlo troppo allungo perché influisce sulla sua energia fisica, che deve essere ripristinata a causa dell'uso del seishin.",
+                inline: false
+            },
+            {
+                name: 'Storia',
+                value: 'Indeterminata, da scoprire in RP',
+                inline: false
+            }
+        )
+        .setImage('https://cdn.discordapp.com/attachments/961273761351495710/961285799389855874/31287ae3bdebb72f767fad092d0126f7.jpg')
+        message.author.send({ embeds: [embed7] })
+    }
+})
+
 //----------------------------------------------------------------------------------------------------------
 //----------------------------------------------------------------------------------------------------------
 //----------------------------------------------------------------------------------------------------------
