@@ -1280,7 +1280,6 @@ client.on("messageCreate", (message) => {
 })
 
 
-
 client.on("messageCreate", (message) => {
     if (message.content == "+/nesrin") {
         var embed7 = new Discord.MessageEmbed()
