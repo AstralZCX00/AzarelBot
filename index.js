@@ -1279,6 +1279,96 @@ client.on("messageCreate", (message) => {
     }
 })
 
+
+
+client.on("messageCreate", (message) => {
+    if (message.content == "+/nesrin") {
+        var embed7 = new Discord.MessageEmbed()
+        .setColor('#00665E')
+        .setTitle('SCHEDA OC NESRIN')
+        .setDescription('nei fields sottostanti troverai la scheda OC')
+        .setThumbnail('https://cdn.discordapp.com/attachments/957201956076679168/957599205961105448/Logo_azarel.png')
+        .addField('\u200b', '\u200b')
+        .addFields(
+             {
+                 name: 'Nome',
+                 value: 'Nesrin Bladeheart',
+                 inline: false 
+             },
+             {
+                 name: 'Altezza',
+                 value: '164cm',
+                 inline: false
+             },
+             {
+                 name: 'Sesso',
+                 value: 'Donna',
+                 inline: false
+             },
+             {
+                 name: 'Età',
+                 value: 'Indefinita',
+                 inline: false
+             },
+             {
+                 name: 'Caratteristiche fisiche',
+                 value: 'ha una pelle chiara, non si abbronza ma in compenso si scotta molto facilmente. Ha i capelli di un colore strano che ha ereditato dalla madre, infatti, sono di un rosa non troppo acceso e sono ricci, mentre gli occhi sono di un azzurro scuro verso il blu, cambia a seconda dei mood e del tempo atmosferico. Non sembra avere un aspetto fisico molto sviluppato ma in realtà i muscoli funzionano bene',
+                 inline: false
+             },
+             {
+                 name: 'Soprannome',
+                 value: 'Rin',
+                 inline: false
+             },
+             {
+                 name: 'Carattere',
+                 value: "Nesrin è una ragazza ambiverta, le piace stare in compagnia di persone a lei care con cui ridere e scherzare, ma allo stesso tempo spesso ha bisogno anche dei suoi spazi e di tempo per stare da sola. È una ragazza molto curiosa, e questa sua curiosità spesso la caccia nei guai. È una ragazza molto impacciata e qualche volta distratta, ma ha un istinto materno e al contempo giovanile, infatti le piacciono i bambini e giocare con loro, ma un suo difetto è quello di intromettersi nelle conversazioni altrui qualora le sembrino interessanti.",
+                 inline: false
+             },
+             {
+                 name: 'Luogo di nascita',
+                 value: "Romania, Bucarest",
+                 inline: false
+             },
+             {
+                 name: 'Orientamento sessuale',
+                 value: 'Eterosessuale',
+                 inline: false
+             }
+        )
+        .addField('\u200b', '\u200b')
+        .addFields(
+            {
+                name: 'Fazione',
+                value: 'Extrin',
+                inline: false 
+            },
+        )
+        .addField('\u200b', '\u200b')
+        .addFields(
+            {
+                name: 'Poteri',
+                value: "Dominio dell'aria, velocità amplificata",
+                inline: false
+            },
+            {
+                name: 'Punto debole',
+                value: "La schiena, è caduta molte volte quando era giovane e adesso se esagera con gli sforzi fisici rimane quasi paralizzata per diversi giorni, e al inguine, se fa delle falcate troppo grandi lo sente fare un scrocchiare e da lì si accascia un attimo per non rischiare di stirare il muscolo. Riguardo ai poteri fa fatica, un bel po' a gestire venti di temperature troppo alte o basse.",
+                inline: false
+            },
+            {
+                name: 'Storia',
+                value: 'Indeterminata, da scoprire in RP',
+                inline: false
+            }
+        )
+        .setImage('https://cdn.discordapp.com/attachments/968197911005503589/968198316984795136/nesrin.jpg')
+        message.author.send({ embeds: [embed7] })
+    }
+})
+
+
+
 //----------------------------------------------------------------------------------------------------------
 //----------------------------------------------------------------------------------------------------------
 //----------------------------------------------------------------------------------------------------------
